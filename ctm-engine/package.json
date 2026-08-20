@@ -62,7 +62,7 @@
     "vitest": "^2.0.0"
   },
   "peerDependencies": {
-    "@movieser/scheduler": "workspace:*"
+    "@movieser/scheduler": "^0.0.0"
   },
   "peerDependenciesMeta": {
     "@movieser/scheduler": {

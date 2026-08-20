@@ -1,0 +1,37 @@
+{
+  "name": "movieser-engine",
+  "version": "0.0.0-canary",
+  "private": true,
+  "description": "MovieSer Core — Open Rendering & Scheduling Engine (NLnet NGI0 Commons Fund + WBSO R&D)",
+  "author": "Solhei Solutions <hello@solhei-solutions.nl>",
+  "license": "MIT OR Apache-2.0",
+  "homepage": "https://movieser.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amorec/movieser-engine.git"
+  },
+  "workspaces": [
+    "scheduler",
+    "ctm-engine",
+    "silent-persistence"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit -p scheduler/tsconfig.json && tsc --noEmit -p ctm-engine/tsconfig.json && tsc --noEmit -p silent-persistence/tsconfig.json",
+    "clean": "rm -rf scheduler/dist ctm-engine/dist silent-persistence/dist coverage",
+    "publish:packages": "npm publish --workspaces --access public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
