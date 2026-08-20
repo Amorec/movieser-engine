@@ -1,0 +1,78 @@
+{
+  "name": "@movieser/ctm-engine",
+  "version": "0.0.0",
+  "description": "Context-Triggered Mounting (CTM) engine. Lazy-mounts only 5% of media-rich DOM nodes on pointer-down selection, with deterministic Blob/AudioContext/Worker lifecycle to prevent memory leaks in >2 hour sessions.",
+  "license": "MIT OR Apache-2.0",
+  "author": "Solhei Solutions <hello@solhei-solutions.nl>",
+  "homepage": "https://movieser.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amorec/movieser-engine",
+    "directory": "packages/ctm-engine"
+  },
+  "keywords": [
+    "lazy-mount",
+    "dom-hydration",
+    "garbage-collection",
+    "memory-leak",
+    "canvas",
+    "video-editor",
+    "pointer-events",
+    "focus-first",
+    "uxt"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./dispose-hook": {
+      "types": "./dist/dispose-hook.d.ts",
+      "import": "./dist/dispose-hook.js",
+      "require": "./dist/dispose-hook.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts src/dispose-hook.ts --format cjs,esm --dts --clean --minify",
+    "dev": "tsup src/index.ts src/dispose-hook.ts --format cjs,esm --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:memory": "tsx tests/memory-leak-harness.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@movieser/scheduler": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@movieser/scheduler": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

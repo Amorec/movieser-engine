@@ -1,0 +1,64 @@
+{
+  "name": "@movieser/scheduler",
+  "version": "0.0.0",
+  "description": "Idle-time priority queue with pre-emptive deadline scheduling. P0 (user-blocking), P1 (render-diff), P2 (idle-only). Zero dependencies, framework-agnostic.",
+  "license": "MIT OR Apache-2.0",
+  "author": "Solhei Solutions <hello@solhei-solutions.nl>",
+  "homepage": "https://movieser.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amorec/movieser-engine",
+    "directory": "packages/scheduler"
+  },
+  "keywords": [
+    "scheduler",
+    "priority-queue",
+    "requestidlecallback",
+    "idle-time",
+    "main-thread",
+    "performance",
+    "browser",
+    "pre-emptive"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE-MIT",
+    "LICENSE-APACHE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --minify",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "tsx benchmarks/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
