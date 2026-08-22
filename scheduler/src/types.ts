@@ -21,7 +21,7 @@ export const Priority = {
   HIGH: 1 as const,
   P1_RENDER_DIFF: 1 as const,
 
-  /** persistence-sync, tag-assets, music, compaction */
+  /** persistence-sync, tag-assets, asset-compaction, cleanup */
   BACKGROUND: 2 as const,
   P2_IDLE_ONLY: 2 as const,
 
@@ -56,7 +56,6 @@ export type JobType =
   | 'seedance-video'
   // Audio
   | 'voice-elevenlabs'
-  | 'music-mureka'
   | 'whisper-asr'
   | 'tag-ai-assets'
   // Data persistence (M3 — silent-persistence)
