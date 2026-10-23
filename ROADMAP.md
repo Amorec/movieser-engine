@@ -1,7 +1,7 @@
 # MovieSer Core — Roadmap
 
-Source of truth for the NLnet + WBSO combined project plan.
-Do not add items to M1–M3 unless both research programmes approve.
+Source of truth for the project plan.
+Do not add items to M1–M3 unless approved by the maintainer.
 
 ---
 
@@ -15,7 +15,7 @@ Do not add items to M1–M3 unless both research programmes approve.
 - [ ] Vitest ≥ 95 % coverage
 - [ ] Benchmark report (v1): custom queue vs. React Scheduler vs. p-queue
 
-**Uren:** 120 h. **NLnet payout:** € 6 000.
+**Uren:** 120 h.
 
 ---
 
@@ -29,7 +29,7 @@ Do not add items to M1–M3 unless both research programmes approve.
 - [ ] 4-hour, 10-run memory-leak harness report (≤ 10 MB / h growth)
 - [ ] Vitest ≥ 95 % coverage
 
-**Uren:** 120 h. **NLnet payout:** € 6 000.
+**Uren:** 120 h.
 
 ---
 
@@ -44,7 +44,7 @@ Do not add items to M1–M3 unless both research programmes approve.
 - [ ] Latency report: P50 / P95 / P99 + 0 % dropped rAF-frame validation
 - [ ] Vitest ≥ 95 % coverage (w/ fake-indexeddb for node runs)
 
-**Uren:** 100 h. **NLnet payout:** € 5 000.
+**Uren:** 100 h.
 
 ---
 
@@ -59,7 +59,7 @@ Do not add items to M1–M3 unless both research programmes approve.
 - [ ] Release notes + blog posts (Dev.to, Hacker News, DTComm)
 - [ ] Whitepaper draft v1
 
-**Uren:** 60 h. **NLnet payout:** € 3 000.
+**Uren:** 60 h.
 
 ---
 

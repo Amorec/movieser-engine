@@ -6,15 +6,12 @@ Thanks for considering contributing! 🙏 This document explains how we work.
 
 ## Project phases & contribution rules
 
-MovieSer Core is being built under two formal research programmes:
-- **WBSO** (RVO The Netherlands) — 500 h research (hypothesis-driven)
-- **NLnet NGI0 Commons** — 400 h + € 20 000 grant
+MovieSer Core is in a research phase: implementation follows a
+**hypothesis → experiment → measurement → conclusion** loop. We therefore
+split the project into phases and **strictly separate implementation from
+research**. Please respect these contribution windows:
 
-Because of this, we split the project into phases and **strictly separate
-implementation from the WBSO research loop**. Please respect these
-contribution windows:
-
-### Phase 1 — Research (Milestones M1, M2, M3) — WBSO running
+### Phase 1 — Research (Milestones M1, M2, M3)
 > Until M4 (± Week 16)
 
 **Accepting:**
@@ -23,13 +20,13 @@ contribution windows:
 - ✅ **Documentation / typo fixes** in existing READMEs
 
 **NOT yet accepting:**
-- ❌ Feature PRs — deferred to M4. The WBSO research plan is fixed per loop.
+- ❌ Feature PRs — deferred to M4. The research plan is fixed per iteration.
 - ❌ Refactors, style changes, lint-only PRs — these conflict with the
-  time-stamped WBSO research logbook (RVO inspects the commit history)
+  time-stamped research logbook (the commit history is part of the record)
 - ❌ Breaking API changes — API is frozen for the 4 milestones
 
 ### Phase 2 — Public v1.0.0 (Milestone M4) — Post research
-> After M4 delivery + NLnet acceptance
+> After M4 delivery
 
 Opening for:
 - ✅ Bug fixes, performance improvements
@@ -70,8 +67,7 @@ Signed-off-by: Your Name <your.name@example.com>"
 Or use `git commit -s` (the `-s` flag appends the line automatically) using
 `git config user.name` and `git config user.email` set to your identity.
 
-Commits without DCO sign-off **cannot be merged**. This is a hard requirement
-from the NLnet Commons fund auditing chain.
+Commits without DCO sign-off **cannot be merged**.
 
 ---
 
@@ -83,7 +79,7 @@ We follow a very small set of rules. Run `npm test` before opening a PR:
   `noUncheckedIndexedAccess` (set per package `tsconfig.json`)
 - Prefer zero dependencies — adding a dep requires a justification in the PR
   description
-- Placeholder files stay placeholder until WBSO logboek documents the
+- Placeholder files stay placeholder until the research logbook documents the
   H₀/H₁ → experiment → measurement → conclusion that justifies code changes
 - Test coverage target for exported symbols: ≥ 95 % (Vitest `coverage`)
 
@@ -106,5 +102,4 @@ Performance & Inclusive Editing Tools**. SIG meetings (initially quarterly)
 decide on roadmap, and maintainers (Solhei + 2-3 community volunteers) run
 day-to-day merges.
 
-For now: all merge decisions are made by Solhei Solutions as lead maintainer
-and principal investigator on the WBSO / NLnet projects.
+For now: all merge decisions are made by Solhei Solutions as lead maintainer.

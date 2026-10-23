@@ -5,8 +5,7 @@
 > browser applications (video editors, canvas tools, document editors, and
 > neuro-inclusive interfaces).
 >
-> Built by Solhei Solutions, funded in part by NLnet NGI0 Commons Fund (2026)
-> and conducted as WBSO R&D project (RVO The Netherlands).
+> Built by Solhei Solutions.
 
 Repository: **https://github.com/Amorec/movieser-engine**
 
@@ -14,17 +13,17 @@ Repository: **https://github.com/Amorec/movieser-engine**
 
 ## ⚠️ Status: Research phase
 
-All three modules are **UNSTABLE** until v1.0.0 (M4 NLnet / Week 16 WBSO).
+All three modules are **UNSTABLE** until v1.0.0 (M4).
 Placeholders are intentional — the real implementation follows a
-**hypothesis → experiment → measurement → conclusion** research loop as part of
-WBSO. Do not submit features outside this loop.
+**hypothesis → experiment → measurement → conclusion** research loop.
+Do not submit features outside this loop.
 
 | Milestone | Package | Status |
 | --- | --- | --- |
-| **M1** (WBSO Onderzoekslus II) | `@movieser/scheduler` | 🧪 Placeholder — research starting |
-| **M2** (WBSO Onderzoekslus I)  | `@movieser/ctm-engine` | 🧪 Placeholder — research starting |
-| **M3** (WBSO Onderzoekslus III)| `@movieser/silent-persistence` | 🧪 Placeholder — research starting |
-| **M4** (Packaging + Docs)      | v1.0.0 stable + demo + benchmarks | 📋 Planned NLnet Deliverable |
+| **M1** | `@movieser/scheduler` | 🧪 Placeholder — research starting |
+| **M2** | `@movieser/ctm-engine` | 🧪 Placeholder — research starting |
+| **M3** | `@movieser/silent-persistence` | 🧪 Placeholder — research starting |
+| **M4** | Packaging + docs: v1.0.0 stable + demo + benchmarks | 📋 Planned |
 
 ---
 
@@ -109,7 +108,7 @@ npm run build:packages
 
 ---
 
-## Alignment with NLnet / NGI0 Commons
+## Open commons alignment
 
 | Criterium | How MovieSer-core delivers |
 | --- | --- |
@@ -117,18 +116,6 @@ npm run build:packages
 | **Privacy & trust** | `@movieser/silent-persistence` deliberately ships NO telemetry; Background Sync only when the user's runtime explicitly queues syncs |
 | **Inclusion** | Focus-first UX building blocks designed for neurodivergent workers (ADHD, autism, attention challenges). 15-20 % of NL workforce benefits. |
 | **Digital sovereignty** | European alternative to closed, cloud-first editors (ByteDance CapCut Web, Canva). Build locally-first. |
-
----
-
-## Funding
-
-```
-NLnet Foundation NGI0 Commons Fund  —  € 20 000  (M1–M4, 400 h @ € 50/h)
-RVO WBSO (NL Tax Faci. S&O)        —  Fiscaal    (500 research hrs, separate fiscal claim)
-```
-
-No double-declaration. 400 NLnet hours = development + publication.
-Remaining 100 WBSO hours = baselines, expanded fallback studies, and cross-browser validation.
 
 ---
 
