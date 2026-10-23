@@ -11,12 +11,12 @@ Repository: **https://github.com/Amorec/movieser-engine**
 
 ---
 
-## ⚠️ Status: Research phase
+## ⚠️ Status: early development
 
-All three modules are **UNSTABLE** until v1.0.0 (M4).
-Placeholders are intentional — the real implementation follows a
-**hypothesis → experiment → measurement → conclusion** research loop.
-Do not submit features outside this loop.
+All three modules are **UNSTABLE** until v1.0.0 (M4). Placeholders are
+intentional — the modules are built one measurable slice at a time, and the
+research targets below are the definition of done. Contributions are
+welcome: see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 | Milestone | Package | Status |
 | --- | --- | --- |
@@ -103,7 +103,7 @@ npm run build:packages
 ### Governance
 
 - No CLA. Uses **Developer Certificate of Origin (DCO)** sign-off on commits.
-- Accepting contributions: Bug fixes only during research phase (M1–M3). Feature PRs deferred to M4 roadmap.
+- Accepting contributions: bug fixes, documentation, tests and adapter packages. The public API of the core packages is frozen until v1.0.0.
 - Governance: Benevolent dictator (Solhei Solutions) until post-M4 SIG.
 
 ---

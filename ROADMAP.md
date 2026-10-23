@@ -1,7 +1,7 @@
 # MovieSer Core — Roadmap
 
 Source of truth for the project plan.
-Do not add items to M1–M3 unless approved by the maintainer.
+Milestones M1–M3 are scoped by the maintainer — open an issue to discuss ideas.
 
 ---
 

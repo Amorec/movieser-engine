@@ -4,35 +4,29 @@ Thanks for considering contributing! 🙏 This document explains how we work.
 
 ---
 
-## Project phases & contribution rules
+## What we accept
 
-MovieSer Core is in a research phase: implementation follows a
-**hypothesis → experiment → measurement → conclusion** loop. We therefore
-split the project into phases and **strictly separate implementation from
-research**. Please respect these contribution windows:
+MovieSer Core is an early-stage library suite, and the modules stay
+**unstable until v1.0.0**. The public API of the three core packages is
+therefore **frozen** — decisions on interfaces are the maintainer's. Anything
+that does not change the API is welcome.
 
-### Phase 1 — Research (Milestones M1, M2, M3)
-> Until M4 (± Week 16)
-
-**Accepting:**
-- ✅ **Bug reports** — open a GitHub Issue with reproduction
+**Welcome:**
+- ✅ **Bug reports** — open a GitHub Issue with a reproduction
 - ✅ **Security disclosures** — email security@solhei-solutions.nl (PGP on request)
-- ✅ **Documentation / typo fixes** in existing READMEs
+- ✅ **Bug fixes** and correctness improvements
+- ✅ **Documentation** — READMEs, guides, examples, typos
+- ✅ **Test coverage** for existing behaviour
+- ✅ **Adapter packages** — React / Vue / Svelte bindings, shipped as separate packages
+- ✅ **Benchmark datasets** and reproducibility reports
 
-**NOT yet accepting:**
-- ❌ Feature PRs — deferred to M4. The research plan is fixed per iteration.
-- ❌ Refactors, style changes, lint-only PRs — these conflict with the
-  time-stamped research logbook (the commit history is part of the record)
-- ❌ Breaking API changes — API is frozen for the 4 milestones
+**Not yet:**
+- ❌ Changes to the public API of `scheduler`, `ctm-engine` or `silent-persistence`
+  (frozen until v1.0.0)
+- ❌ New runtime dependencies in the core packages — open an issue first
+- ❌ Project-wide refactors or formatting-only PRs — hard to review, no value
 
-### Phase 2 — Public v1.0.0 (Milestone M4) — Post research
-> After M4 delivery
-
-Opening for:
-- ✅ Bug fixes, performance improvements
-- ✅ Integration PRs (React / Vue / Svelte adapter packages)
-- ✅ OPFS / IndexedDB backend enhancements
-- ✅ Benchmark dataset expansions
+Not sure whether your idea fits? Open an issue before writing code.
 
 ---
 
