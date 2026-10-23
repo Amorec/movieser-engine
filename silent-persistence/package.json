@@ -4,7 +4,7 @@
   "description": "Non-blocking persistence layer for media apps. Web Worker SharedArrayBuffer + Atomics offload, IndexedDB Write-Ahead Log with delta-batching. Zero visual / zero notification. Target P95 <50 ms with 0% requestAnimationFrame drops (rAF) interrupts.",
   "license": "MIT OR Apache-2.0",
   "author": "Solhei Solutions <hello@solhei-solutions.nl>",
-  "homepage": "https://movieser.com",
+  "homepage": "https://getmovieser.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/Amorec/movieser-engine",

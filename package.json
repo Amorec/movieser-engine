@@ -5,7 +5,7 @@
   "description": "MovieSer Core — Open Rendering & Scheduling Engine",
   "author": "Solhei Solutions <hello@solhei-solutions.nl>",
   "license": "MIT OR Apache-2.0",
-  "homepage": "https://movieser.com",
+  "homepage": "https://getmovieser.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/Amorec/movieser-engine.git"

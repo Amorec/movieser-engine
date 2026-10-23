@@ -4,7 +4,7 @@
   "description": "Idle-time priority queue with pre-emptive deadline scheduling. P0 (user-blocking), P1 (render-diff), P2 (idle-only). Zero dependencies, framework-agnostic.",
   "license": "MIT OR Apache-2.0",
   "author": "Solhei Solutions <hello@solhei-solutions.nl>",
-  "homepage": "https://movieser.com",
+  "homepage": "https://getmovieser.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/Amorec/movieser-engine",

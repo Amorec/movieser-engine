@@ -96,8 +96,8 @@ npm run build:packages
 | Stable npm releases (× 3 modules) | End M4 | npm, MIT + Apache 2.0 |
 | Live browser demo | End M4 | StackBlitz embed, React |
 | 10 000+ benchmark dataset | End M4 | GitHub Pages D3 dashboard, CC-BY 4.0 |
-| TypeDoc API coverage | End M4 | `docs.movieser.com` |
-| Technical whitepaper | 6 months post-M4 | movieser.com/onderzoek, arXiv |
+| TypeDoc API coverage | End M4 | `docs.getmovieser.com` |
+| Technical whitepaper | 6 months post-M4 | getmovieser.com/onderzoek, arXiv |
 | Security & bug fix maintainership | 12 months post-M4 | Repository |
 
 ### Governance

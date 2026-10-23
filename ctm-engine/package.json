@@ -4,7 +4,7 @@
   "description": "Context-Triggered Mounting (CTM) engine. Lazy-mounts only 5% of media-rich DOM nodes on pointer-down selection, with deterministic Blob/AudioContext/Worker lifecycle to prevent memory leaks in >2 hour sessions.",
   "license": "MIT OR Apache-2.0",
   "author": "Solhei Solutions <hello@solhei-solutions.nl>",
-  "homepage": "https://movieser.com",
+  "homepage": "https://getmovieser.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/Amorec/movieser-engine",
