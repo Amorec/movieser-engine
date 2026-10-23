@@ -11,7 +11,7 @@
 
 ---
 
-> ⚠️ **Research-phase package (WBSO Onderzoekslus III / NLnet M3)**.
+> ⚠️ **Research-phase package (M3)**.
 > Do not use in production until v1.0.0.
 
 ## Why
@@ -47,7 +47,7 @@ Main thread (rAF-loop, 0% blocking goal)
       └── last-write-wins per node
 ```
 
-## Research targets (WBSO H1)
+## Research targets
 
 | Metriek | Doel |
 | --- | --- |

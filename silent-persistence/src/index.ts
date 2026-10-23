@@ -1,5 +1,5 @@
 // ============================================================
-// @movieser/silent-persistence — Placeholder (WBSO Onderzoekslus III / NLnet M3)
+// @movieser/silent-persistence — Placeholder
 // ============================================================
 //
 // Stub only. Real implementation is research-track:
@@ -15,8 +15,8 @@
 //  - 0% rAF-blocking (no frames dropped during write)
 //  - iOS Safari 17.x fallback: OPFS (Origin Private File System)
 //
-// DO NOT write code outside the WBSO research iteration cycle.
-// First: document H0/H1 + measurement setup in the WBSO logboek.
+// DO NOT write code outside the research iteration cycle.
+// First: document H0/H1 + measurement setup in het logboek.
 
 export type StorageBackend = "indexeddb" | "opfs" | "memory";
 
@@ -57,7 +57,7 @@ export interface WriteResult {
 
 export class SilentStore<T extends object> {
   constructor(_options: SilentStoreOptions<T>) {
-    // TODO M3 (WBSO Onderzoekslus III, Iteratie 1)
+    // TODO M3 (Iteratie 1)
     // Implementatie alleen NA H0/H1 documentatie + experiment setup
   }
 

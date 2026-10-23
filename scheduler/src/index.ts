@@ -1,5 +1,5 @@
 // ============================================================
-// @movieser/scheduler — Priority Scheduler (M1 WBSO / NLnet)
+// @movieser/scheduler — Priority Scheduler
 // ============================================================
 // Real implementation replacing the stub. Keeps full backwards compat
 // with the 3-tier 0/1/2 Priority enum (P0_USER_BLOCKING etc.) from the

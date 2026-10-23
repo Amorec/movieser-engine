@@ -1,7 +1,6 @@
 // ============================================================
 // @movieser/scheduler — Binary Min-Heap (Priority Queue internals)
 // ============================================================
-// WBSO Milestone 1 | NLnet M1
 // Performance: O(log n) insert / extractMin / decreaseKey (best-effort)
 // Key = [priority, createdAtMs] → tuple (FIFO starvation prevention)
 // Zero dependencies, framework agnostic, Node + Browser

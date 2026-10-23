@@ -9,7 +9,7 @@
 
 ---
 
-> ⚠️ **Research-phase package (WBSO Onderzoekslus I / NLnet M2)**.
+> ⚠️ **Research-phase package (M2)**.
 > Do not use in production until v1.0.0.
 
 ## Problem statement (technical)
@@ -45,7 +45,7 @@ flaws for media-bearing nodes:
                      └──────────────────────────────┘
 ```
 
-## Research targets (WBSO H1 Onderzoekslus I)
+## Research targets
 
 - 60%+ of mount transitions complete in ≤16 ms (P99)
 - Heap growth ≤10 MB / hour in a 4-hour 500-node session

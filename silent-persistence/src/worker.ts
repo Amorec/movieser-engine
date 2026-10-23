@@ -10,5 +10,5 @@
 //  - Batch commits to WAL (5+ mutations per transaction minimum)
 //  - Fire sync signal back when committed (no UI, no notificaties)
 //
-// Will be implemented during NLnet M3 / WBSO Onderzoekslus III.
+// Will be implemented during M3.
 // File exists so TypeScript bundler can inline worker.

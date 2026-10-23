@@ -9,7 +9,7 @@
 // This registry MUST be called synchronously on deselect / unmount
 // (NOT inside useEffect cleanup — called inside React Strict Mode twice).
 //
-// To be validated in WBSO CTM Iteratie 3 — geheugenlek studies.
+// To be validated in CTM Iteratie 3 — geheugenlek studies.
 
 export type DisposableKind =
   | "blob-url"
@@ -39,7 +39,7 @@ export class DisposeHookRegistry {
 
   /** Deterministic synchronous disposal. Nodes: runs <1 ms for 10 handles. */
   disposeAll(_kindFilter?: DisposableKind[]): number {
-    // TODO M2 WBSO — implement + measure performance
+    // TODO M2 — implement + measure performance
     return 0;
   }
 

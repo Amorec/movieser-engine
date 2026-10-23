@@ -6,7 +6,7 @@
 
 ---
 
-> ⚠️ **Research-phase package (WBSO Onderzoekslus II / NLnet M1)**
+> ⚠️ **Research-phase package (M1)**
 > API is UNSTABLE until v1.0.0. Do not use in production.
 
 ## What (will it) solve
@@ -24,7 +24,7 @@ Huidige gangbare libraries (React Scheduler, p-queue, queue-lit) missen *either*
 | P1   | 1        | Render-diff patches | `requestIdleCallback` remaining time slice, pre-empt if < 1 ms |
 | P2   | 2        | Idle-only analytics / logging | Only if budget >= 2 ms, skipped otherwise |
 
-## Research targets (WBSO H1)
+## Research targets
 
 - 99.7% of events dispatched within 1 ms
 - 0% missed input events under React Fiber contention

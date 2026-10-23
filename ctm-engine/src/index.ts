@@ -1,15 +1,15 @@
 // ============================================================
-// @movieser/ctm-engine — Placeholder (WBSO Onderzoekslus I / NLnet M2)
+// @movieser/ctm-engine — Placeholder
 // ============================================================
 //
-// Stub only. The real implementation is part of WBSO Onderzoekslus I:
+// Stub only. The real implementation is research-track:
 //  - Context-Triggered Mounting (CTM): pointer-down + 40px prediction radius
 //  - 5% active-node cap (max N nodes mounted from total canvas set)
 //  - Deterministic disposal hook registry (Blob.revoke, AudioContext.close, Worker.terminate)
 //  - Target: P99 mount/unmount <=16 ms; heap-growth <=10 MB/h in 4h sessions
 //
-// Do NOT add features outside the WBSO research iteration cycle.
-// Log H0/H1 + measurements in /wbso-logboek/ before code changes.
+// Do NOT add features outside the research iteration cycle.
+// Log H0/H1 + measurements before code changes.
 
 export interface CTMOptions {
   /** Max % of total nodes actively hydrated (CTM cap, default 5%) */
@@ -42,8 +42,8 @@ export interface CTMStats {
 
 export class CTMEngine {
   constructor(_options: CTMOptions = {}) {
-    // TODO M2 (WBSO Onderzoekslus I Iteratie 1)
-    // Implementeer pas NA hypothese + experiment-opzet in WBSO logboek
+    // TODO M2 (Iteratie 1)
+    // Implementeer pas NA hypothese + experiment-opzet in het logboek
   }
 
   register(_node: MountableNode): void {
